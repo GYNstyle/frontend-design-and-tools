@@ -1,0 +1,44 @@
+Arguments: 
+  /Users/guoguo/.nvm/versions/node/v19.4.0/bin/node /Users/guoguo/.nvm/versions/node/v19.4.0/bin/yarn install
+
+PATH: 
+  /var/folders/78/xp7d45p557qc0nqn2tf_m3ym0000gp/T/yarn--1707123344189-0.6202482217870584:/Users/guoguo/.config/yarn/global/node_modules/.bin:/Users/guoguo/.config/yarn/link/node_modules/.bin:/Users/guoguo/.yarn/bin:/Users/guoguo/.nvm/versions/node/v19.4.0/libexec/lib/node_modules/npm/bin/node-gyp-bin:/Users/guoguo/.nvm/versions/node/v19.4.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/guoguo/.nvm/versions/node/v19.4.0/bin/node_modules/npm/bin/node-gyp-bin:/Users/guoguo/.nvm/versions/node/v19.4.0/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/guoguo/.cargo/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  19.4.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@vitejs/plugin-vue-jsx/-/plugin-vue-jsx-3.1.0.tgz: ETIMEDOUT
+      at Timeout._onTimeout (/Users/guoguo/.nvm/versions/node/v19.4.0/lib/node_modules/yarn/lib/cli.js:141550:19)
+      at listOnTimeout (node:internal/timers:564:17)
+      at process.processTimers (node:internal/timers:507:7)
+
+npm manifest: 
+  {
+    "name": "frontend-design-and-tools",
+    "type": "module",
+    "private": true,
+    "scripts": {
+      "build": "slidev build",
+      "dev": "slidev --open",
+      "export": "slidev export"
+    },
+    "dependencies": {
+      "@slidev/cli": "^0.47.3",
+      "@slidev/theme-default": "latest",
+      "@slidev/theme-seriph": "latest",
+      "vue": "^3.4.15"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
